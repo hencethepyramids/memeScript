@@ -1,14 +1,12 @@
 # memeScript
 
-It starts by importing the necessary libraries, including requests for making HTTP requests, random for randomness, and webbrowser for opening a web page 
-in the default web browser.
+It starts by importing the necessary libraries, including requests for making HTTP requests, random for randomness, and webbrowser for opening a web page in the default web browser.
 
 It defines the API URL as 'https://api.imgflip.com/get_memes' to request meme data from the "imgflip.com" API.
 
 The script sends an HTTP GET request to the API using requests.get(api_url).
 
-It checks the HTTP response status code to determine if the request was successful. If the status code is 200 (OK), it proceeds; otherwise, it prints a 
-failure message.
+It checks the HTTP response status code to determine if the request was successful. If the status code is 200 (OK), it proceeds; otherwise, it prints a failure message.
 
 If the request is successful, the script parses the JSON content of the response to extract meme data.
 
